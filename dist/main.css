@@ -1,0 +1,13 @@
+.navbar-light .navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 25px 6px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.container1{
+  padding-top: 120px;
+}
