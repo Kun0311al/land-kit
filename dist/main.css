@@ -13,7 +13,7 @@ h6{
 .navbar-light .navbar-nav .nav-link {
   font-size: 18px;
   font-weight: 600;
-  margin: 25px 6px;
+  margin: 20px 6px;
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light {
   color: #fff;
@@ -172,4 +172,13 @@ h6{
   width: 45px;
   border-radius: 50%;
   text-align: center;
+}
+.logo{
+  filter: grayscale(100%);
+  opacity: .6;
+  transition: 0.6s;
+}
+.logo:hover{
+  filter: grayscale(0%);
+  opacity: 1;
 }
